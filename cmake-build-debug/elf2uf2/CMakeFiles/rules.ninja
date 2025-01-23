@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "E:\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\bin\PicoSDKv1.5.0\pico-sdk\tools\elf2uf2 -BE:\Embedded_C_IOT\Pill_despenser_project\cmake-build-debug\elf2uf2
+  command = "E:\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\bin\PicoSDKv1.5.0\pico-sdk\tools\elf2uf2 -BE:\Embedded_C_IOT\Pill_dispenser_project\cmake-build-debug\elf2uf2
   description = Re-running CMake...
   generator = 1
 

@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Pill_despenser_project.c")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Pill_dispenser_project.c")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/Embedded_C_IOT/Pill_despenser_project/cmake-build-debug/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
-  include("E:/Embedded_C_IOT/Pill_despenser_project/cmake-build-debug/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
+  include("E:/Embedded_C_IOT/Pill_dispenser_project/cmake-build-debug/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
+  include("E:/Embedded_C_IOT/Pill_dispenser_project/cmake-build-debug/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
 
 endif()
 

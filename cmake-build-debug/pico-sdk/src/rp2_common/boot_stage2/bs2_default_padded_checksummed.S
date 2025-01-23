@@ -1,4 +1,4 @@
-// Padded and checksummed version of: E:/Embedded_C_IOT/Pill_despenser_project/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: E:/Embedded_C_IOT/Pill_dispenser_project/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

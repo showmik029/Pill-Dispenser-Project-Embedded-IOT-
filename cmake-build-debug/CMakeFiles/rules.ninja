@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: Pill_despenser_project.c
+# Project: Pill_dispenser_project.c
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -14,7 +14,7 @@
 #############################################
 # Rule for compiling ASM files.
 
-rule ASM_COMPILER__Pill_despenser_project.2ec_unscanned_Debug
+rule ASM_COMPILER__Pill_dispenser_project.2ec_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\bin\PicoSDKv1.5.0\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
@@ -24,7 +24,7 @@ rule ASM_COMPILER__Pill_despenser_project.2ec_unscanned_Debug
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__Pill_despenser_project.2ec_unscanned_Debug
+rule C_COMPILER__Pill_dispenser_project.2ec_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\bin\PicoSDKv1.5.0\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -34,7 +34,7 @@ rule C_COMPILER__Pill_despenser_project.2ec_unscanned_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Pill_despenser_project.2ec_unscanned_Debug
+rule CXX_COMPILER__Pill_dispenser_project.2ec_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\bin\PicoSDKv1.5.0\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -44,7 +44,7 @@ rule CXX_COMPILER__Pill_despenser_project.2ec_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Pill_despenser_project.2ec_Debug
+rule CXX_EXECUTABLE_LINKER__Pill_dispenser_project.2ec_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\bin\PicoSDKv1.5.0\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $FLAGS -Wl,--build-id=none $LINK_FLAGS @$RSP_FILE -o $TARGET_FILE && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   rspfile = $RSP_FILE
@@ -83,7 +83,7 @@ rule ASM_EXECUTABLE_LINKER__bs2_default_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "E:\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\Embedded_C_IOT\Pill_despenser_project -BE:\Embedded_C_IOT\Pill_despenser_project\cmake-build-debug
+  command = "E:\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\Embedded_C_IOT\Pill_dispenser_project -BE:\Embedded_C_IOT\Pill_dispenser_project\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
